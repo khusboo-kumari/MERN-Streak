@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.bulb {
+    height: 300px;
+    width: 300px; 
+    background-color: orange ;  
+    border: 2px solid gray ; 
+    border-radius: 50% ;   
+}
+
+#epicentre{
+   margin-top: 20px; 
+   margin-left: 550px;
+}
