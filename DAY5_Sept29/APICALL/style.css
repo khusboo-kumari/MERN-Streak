@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.listContainer{
+    display: flex ; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    border: 2px solid rgb(151, 81, 93);
+    background-color: rgb(165, 131, 44);
+    padding: 10px;
+    border-top-right-radius: 20%;
+
+}
+
+.post-item h2{
+    color: rgb(70, 31, 4); 
+    font-size: 20px;
+}
+
+.post-item p{
+    font-size: 18px;
+    color: rgb(105, 46, 46);
+}
